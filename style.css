@@ -87,11 +87,11 @@ h3 {
 }
 
 .icon-mail {
-    background-image: url(/assets/img/svg/icon/mail.svg);
+    background-image: url(./assets/img/svg/icon/mail.svg);
 }
 
 .icon-arrow {
-    background-image: url(/assets/img/svg/icon/arrow.svg);  
+    background-image: url(./assets/img/svg/icon/arrow.svg);  
 }
 
 .header {
@@ -157,7 +157,7 @@ h3 {
 }
 
 .icon-fullcreen {
-    background-image: url(/assets/img/svg/icon/fuullcreen.svg);
+    background-image: url(./assets/img/svg/icon/fuullcreen.svg);
     width: 48px;
     height: 48px;
     background-repeat: no-repeat;
