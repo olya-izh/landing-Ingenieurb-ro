@@ -1,0 +1,370 @@
+body {
+    margin: 0;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-weight: 400;
+}
+
+footer {
+    background-color: #263640;
+}
+
+h4 {
+    font-weight: 700;
+    color: #929A9F;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+h1 {
+    font-weight: 700;
+    color: #000;
+    font-size: 32px;
+    line-height: 45px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+p {
+    font-weight: 500;
+    color: #929A9F;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+h2 {
+    font-weight: 700;
+    color: #263640;
+    font-size: 24px;
+    line-height: 44px;
+}
+
+h3 {
+    font-weight: 500;
+    color: #263640;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.container {
+    width: 1216px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: flex;
+    height: 40px;
+    border: none;
+    background-color: #FF9900;
+    transition: all .4s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #e68b02; 
+}
+
+.btn:hover .btn-title {
+    text-decoration: underline;
+}
+
+.btn-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 8px;
+    line-height: 24px;
+    color: #fff;
+    transition: all .4s;
+}
+
+.btn-icon {
+    height: 24px;
+    width: 24px;
+    margin: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.icon-mail {
+    background-image: url(/assets/img/svg/icon/mail.svg);
+}
+
+.icon-arrow {
+    background-image: url(/assets/img/svg/icon/arrow.svg);  
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 62px;
+}
+
+.img-logo {
+    height: 40px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.nav-list li {
+    margin: 8px 20px;
+}
+
+.nav-list a {
+    color: #000;
+    text-decoration: none;
+    transition: all .4s;
+    font-size: 16px;
+}
+
+.nav-list a:hover {
+    cursor: pointer;
+    color: #FF9900;
+    text-decoration: underline;
+}
+
+.section-ingenieur {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 59px;
+}
+
+.inner-left {
+    width: 427px;
+    margin-top: 100px;
+}
+
+.inner-right {
+    position: relative;
+}
+
+.img-ingeniuer_substrate {
+    width: 593px;
+    height: 750px;
+    background-color: #F5F8FA;
+    position: absolute;
+    top: 95px;
+    z-index: -1;
+    right: 65px;
+}
+
+.img-ingeniuer {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.icon-fullcreen {
+    background-image: url(/assets/img/svg/icon/fuullcreen.svg);
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    left: 32px;
+    top: 32px;
+}
+
+.section-unsere {
+    background-color: #F5F8FA;
+    margin-top: -150px;
+    padding-top: 150px;
+    height: 1440px
+}
+
+.unsere-description {
+    width: 520px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.cards-item {
+    width: 312px;
+}
+
+.cards-item a {
+    color: #FF9900;
+    text-decoration: none;
+    transition: all .4s;
+    font-size: 16px;
+    padding: 0 5px;
+}
+
+.cards-item a:hover {
+    cursor: pointer;
+    border: 1px solid #FF9900;
+}
+
+.section-diplom {
+    margin-top: -380px;
+}
+
+.container-diplom {
+    position: relative;
+}
+
+.diplom-description {
+    width: calc(1009px - 98px);
+    background-color: #263640;
+    padding: 98px 0 74px 98px;
+    position: relative;
+
+}
+
+.diplom-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+    width: 494px;
+}
+
+.description-text {
+    width: 422px;
+}
+
+.description-text::after {
+    display: block;
+    width: 494px;
+    height: 1px;
+    content: "";
+    background-color: #fff;
+    margin-top: 56px;
+    margin-bottom: 24px;
+}
+
+.link-description {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: all .4s;
+    font-size: 16px;
+}
+
+.link-description:hover {
+    cursor: pointer;
+    color: #b1b1b1;
+    text-decoration: underline;
+}
+
+.img-diplom {
+    position: absolute;
+    right: 0;
+    top: 98px;
+}
+
+.diplom_substrate {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #F5F8FA;
+    right: 55px;
+    z-index: -1;
+}
+
+.section-wissenswertes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 256px;
+}
+
+.btn-title_wide {
+    width: 86px;
+}
+
+.wissenswertes-description {
+    width: 488px;
+}
+
+.section-wissenswertes .btn {
+    margin-top: 101px;
+}
+
+.title-cards {
+    margin-top: 80px;
+}
+
+.cards-unsere {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 323px;
+}
+
+.unsere-item {
+    width: 361px;
+}
+
+.section-bewirb {
+    background-color: #F5F8FA;
+    padding-top: 101px;
+    padding-bottom: 116px;
+}
+
+.section-bewirb .container {
+    position: relative;
+}
+
+.bewirb-inner {
+    margin-top: 0px;
+    width: 331px;
+}
+
+.bewirb-img {
+    position: absolute;
+    top: -224px;
+    right: 0;
+}
+
+.container-footer_top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 82px;
+    padding-bottom: 38px;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item_text {
+  font-size: 16px; 
+  font-weight: 400; 
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.footer-right_item {
+    margin-right: 140px;
+
+}
+
+.footer-item_title {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.container-footer_bottom {
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 35px;
+}
+
+.container-footer_bottom::before {
+    position: absolute;
+    top: 0;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #747E85;
+}
